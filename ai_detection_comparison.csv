@@ -1,0 +1,4 @@
+Detection Type,Primary Model,Key Features,Processing Time,Accuracy (Expected),Dataset
+Image,EfficientNet-B7,"Spatial artifacts, GAN traces",< 1 sec,90-95%,"GenImage, CIFAKE"
+Video,EfficientNet-B0 + GRU,"Temporal inconsistencies, face artifacts",3-10 sec,85-92%,"FaceForensics++, Celeb-DF"
+Audio/Voice,Wav2Vec2,"Spectral anomalies, prosody patterns",1-3 sec,88-95%,"DEEP-VOICE, ASVspoof"
